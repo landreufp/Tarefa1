@@ -10,7 +10,7 @@ const usersRouter = require('./routes/users');
 const catalogRouter = require('./routes/catalog'); 
 
 mongoose.set("strictQuery", false);
-const mongoDB = "mongodb://127.0.0.1/projectdb";
+const mongoDB = "mongodb+srv://2022103539:UU6hMQgFOFAdyuYY@cluster0.gepimnl.mongodb.net/projectdb";
 
 const Schema = new mongoose.Schema({
   a_string: String,
